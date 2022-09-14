@@ -35,6 +35,8 @@
 
 .app__chef-sign img {
   width: 250px;
+  width: 250px;
+  width: 20px;
   margin-top: 3rem;
 }
 
@@ -49,3 +51,7 @@
     width: 80%;
   }
 }
+    width: 300px;
+  }
+}
+
