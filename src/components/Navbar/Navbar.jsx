@@ -141,4 +141,36 @@ export default Navbar;
   );
 };
 
+
+        {toggleMenu && (
+          <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
+            <MdOutlineRestaurantMenu
+              fontSize={27}
+              className="overlay__close"
+              onClick={() => setToggleMenu(false)}
+            />
+            <ul className="app__navbar-smallscreen-links">
+              <li className="p__opensans">
+                <a href="#home">Home</a>
+              </li>
+              <li className="p__opensans">
+                <a href="#about">About</a>
+              </li>
+              <li className="p__opensans">
+                <a href="#contact"> Contact Us </a>
+              </li>
+              <li className="p__opensans">
+                <a href="#blog"> Blog </a>
+              </li>
+              <li className="p__opensans">
+                <a href="#landing"> Landing </a>
+              </li>
+            </ul>
+          </div>
+        )}
+      </div>
+    </nav>
+  );
+};
+
 export default Navbar;
