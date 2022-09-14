@@ -49,6 +49,9 @@
 @media screen and (max-width: 450px) {
   .app__chef-sign img {
     width: 80%;
+  }
+}
     width: 300px;
   }
 }
+

@@ -140,8 +140,6 @@ export default Navbar;
     </nav>
   );
 };
-
-
         {toggleMenu && (
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
             <MdOutlineRestaurantMenu
